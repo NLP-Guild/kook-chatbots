@@ -1,5 +1,5 @@
 from khl import Bot, Message
-from utils import read_config
+# from utils import read_config
 import sys
 if __name__ == '__main__':
     print(sys.path)

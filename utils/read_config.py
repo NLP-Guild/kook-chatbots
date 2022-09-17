@@ -2,7 +2,7 @@
 make sure that a config.json file is located under root of the project
 '''
 import json
-from definitions import get_project_root, Path
+from definitions import get_project_root
 
 ROOT_DIR = get_project_root()
 def read_config():

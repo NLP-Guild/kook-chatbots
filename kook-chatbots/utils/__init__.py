@@ -1,4 +1,4 @@
-from utils.read_config import read_config
+from .read_config import read_config
 
 if __name__ == '__main__':
     testBot_token = read_config()['testBot']

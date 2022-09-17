@@ -1,5 +1,5 @@
 from khl import Bot, Message
-from ..kook_chatbots.utils import read_config
+from kook_chatbots.utils import read_config
 
 
 # init Bot

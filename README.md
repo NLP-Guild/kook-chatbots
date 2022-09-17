@@ -10,3 +10,7 @@ Chatbots (Dialogue Systems) development on KOOK platform.
 4. go to this page by pasting the link in the browser and go, then select which server you would like to invite the chatbot to.
 5. start development
 [an simple example on colab](https://colab.research.google.com/drive/1dnXV61v6d8_9z8uLNqAL275NXvbHywgG?usp=sharing) 
+
+
+
+链接: https://pan.baidu.com/s/1BsBJ0CunszdZH2286aTp0A 提取码: isug 复制这段内容后打开百度网盘手机App，操作更方便哦

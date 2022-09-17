@@ -1,5 +1,7 @@
 import sys
+print(sys.path)
 sys.path.append("..")
+print(sys.path)
 from khl import Bot, Message
 from utils import read_config
 

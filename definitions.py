@@ -8,3 +8,5 @@ if __name__ == '__main__':
     root = str(get_project_root())
     print(f'adding root path to system path: {{root}}')
     sys.path.append(root)
+
+    print(sys.path)

@@ -1,7 +1,7 @@
 # kook-chatbots
 Chatbots (Dialogue Systems) development on KOOK platform.
 
-# Guidence
+# General Guidence of KOOK Chatbots
 1. create your first chatbot account on [KOOK开发者中心](https://developer.kookapp.cn/app/index)
 2. store the token as:
   ![](https://i.imgur.com/e3Ucj4o.png)

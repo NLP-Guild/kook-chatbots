@@ -1,7 +1,9 @@
 from khl import Bot, Message
-
+from utils import read_config
 # init Bot
-bot = Bot(token='1/MTA0NjU=/0oavExyZtnMNrVCZ3FMPSw==')
+testBot_token = read_config()['testBot']
+
+bot = Bot(token=testBot_token)
 
 
 # register command, send `/hello` in channel to invoke

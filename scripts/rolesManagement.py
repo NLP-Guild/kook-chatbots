@@ -1,8 +1,9 @@
 from khl import Bot, Message,EventTypes, Event
-from pprint import pprint
+from utils import read_config
 # init bot
 # 小新
-bot = Bot(token='1/MTA0NjM=/knqsAvLfRTAgxmz7tSYmnA==')
+xiaoxin = read_config()['xiaoxin']
+bot = Bot(token=xiaoxin)
 
 
 

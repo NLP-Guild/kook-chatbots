@@ -1,7 +1,7 @@
 from pathlib import Path
 import sys
 def get_project_root() -> Path:
-    return Path(__file__).parent
+    return Path(__file__).parent.parent.parent
 
 
 if __name__ == '__main__':

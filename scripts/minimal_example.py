@@ -1,9 +1,9 @@
 from khl import Bot, Message
-from .. import utils
+from ..kook_chatbots.utils import read_config
 
 
 # init Bot
-testBot_token = utils.read_config()['testBot']
+testBot_token = read_config()['testBot']
 bot = Bot(token=testBot_token)
 
 

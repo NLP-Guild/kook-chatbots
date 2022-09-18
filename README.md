@@ -18,10 +18,8 @@ A full tutorial of usage can be found in this [colab notebook](https://colab.res
 
 # 3 Chat online with the chatbot
 The chatbot is currenly deployed in [this server](https://kook.top/TiPbQL). To chat with it, simply join the server (you need a KOOK account)
+![](https://i.imgur.com/pWAnrLV.png)
 
-![](https://img.kookapp.cn/attachments/2022-09/18/Yj4aIooOP00u01uo.jpeg)
-
-![](https://img.kookapp.cn/attachments/2022-09/18/WABM0fxEKJ0u01uo.jpeg)
 
 # 4 Discussions & Feedbacks
 Please join our [official NLP Guild KOOK server](https://kook.top/i25ZuW)

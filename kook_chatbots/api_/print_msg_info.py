@@ -3,7 +3,7 @@ from khl import  Message
 
 async def print_msg_info(msg:Message):
     print(f'''
-        msg: {msg}
+        msg: {msg.content}
         author: {msg.author}
         author_id: {msg.author_id}
         gate: {msg.author.gate}
@@ -14,8 +14,6 @@ async def print_msg_info(msg:Message):
         ''')
     # await msg.author.send('nihao')
     roles = await msg.ctx.guild.fetch_roles()
-
-    print(roles)
     for role in roles:
         print(f'''
             id: {role.id}

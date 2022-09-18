@@ -31,6 +31,8 @@ async def auto_reply(msg: Message):
         response = command_manager.parse_command_and_exec(msg_content)
         if response is not None:
             await msg.reply(response)
+        else:
+            await msg.reply('Done!')
 
     # normal text
     else:

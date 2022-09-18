@@ -11,12 +11,11 @@ class CommandManager:
     def print_help(self):
         ret = 'Allowed commands for the chatbots:\r\n'
         for command in self.commands.keys():
-            ret += f'\\{command}'
+            tmp = f'/{command}'
             if self.commands[command][1]:
-                ret +=f' <args>'
-            else:
-                ret +=f'       '
-            ret+= f'\t\t\t{self.commands[command][2]}'
+                tmp +=f' <args>'
+            ret += tmp.ljust(30,' ')
+            ret+= f'{self.commands[command][2]}'
             ret += '\r\n'
         print(ret)
         return ret
@@ -57,3 +56,6 @@ if __name__ == '__main__':
     manager.register_command('hello',print,'test',True)
     manager.exec_command('help')
     manager.parse_command_and_exec('/help2 --info 10 --verbose')
+
+    a = '123'.ljust(10,'-')
+    print(a)

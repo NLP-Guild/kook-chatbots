@@ -1,8 +1,6 @@
 class CommandManager:
     def __init__(self):
-        self.commands = {
-
-        }
+        self.commands = {}
         self.register_command('help',self.print_help,description='列出所有机器人可用的命令')
 
     def register_command(self, command: str, func: callable,description: str ,allow_args=False):

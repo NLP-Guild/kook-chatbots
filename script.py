@@ -1,6 +1,7 @@
 from khl import Bot, Message
 from kook_chatbots.utils import read_config
 from kook_chatbots.api_ import print_msg_info
+from kook_chatbots.api_ import ai_reply
 import asyncio
 
 # init Bot
@@ -17,11 +18,12 @@ async def world(msg: Message):
     await task1
 
 @bot.on_message()
-async def roll4(msg: Message):
-  print(msg.author_id)
-  if msg.author_id != '2759265102':
+async def auto_reply(msg: Message):
     msg_content = msg.content
     print(msg_content)
+    response = ai_reply(msg_content)
+    await msg.reply(response)
+
 
 
 # everything done, go ahead now!

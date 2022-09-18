@@ -1,6 +1,6 @@
 from khl import Bot, Message
 from kook_chatbots.utils import read_config
-from kook_chatbots.api_ import ai_reply,CommandManager,print_msg_info
+from kook_chatbots.api_ import ai_reply,CommandManager,print_msg_info,clear_chat_history
 import asyncio
 
 # init Bot
@@ -10,6 +10,7 @@ bot = Bot(token=testBot_token)
 # command magager
 command_manager = CommandManager()
 command_manager.register_command('hello',lambda :'world','send a hello world sentence')
+command_manager.register_command('clearhistory',clear_chat_history,'清楚聊天机器人对话历史')
 
 # register command, send `/hello` in channel to invoke
 # @bot.command(name='hello')

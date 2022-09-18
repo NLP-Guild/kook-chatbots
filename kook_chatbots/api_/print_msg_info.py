@@ -13,11 +13,11 @@ def print_msg_info(msg:Message):
         channel: {msg.ctx.channel}
         ''')
 
-    roles = await msg.ctx.guild.fetch_roles()
-    for role in roles:
-        print(f'''
-            id: {role.id}
-            name: {role.name}
-            color: {role.color}
-            position: {role.position}
-            ''')
+    # roles = await msg.ctx.guild.fetch_roles()
+    # for role in roles:
+    #     print(f'''
+    #         id: {role.id}
+    #         name: {role.name}
+    #         color: {role.color}
+    #         position: {role.position}
+    #         ''')

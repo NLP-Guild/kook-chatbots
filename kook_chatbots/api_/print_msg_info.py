@@ -2,10 +2,10 @@ from khl import  Message
 
 
 async def print_msg_info(msg:Message):
-    print(msg)
-    print(msg.author)
-    print(msg.author.id)
     print(f'''
+        msg: {msg}
+        author: {msg.author}
+        author_id: {msg.author_id}
         gate: {msg.author.gate}
         nickname: {msg.author.nickname}
         username: {msg.author.username}

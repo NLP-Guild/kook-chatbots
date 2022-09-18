@@ -25,7 +25,7 @@ class CommandManager:
 
     def exec_command(self,command,**kwargs):
         if self.has_command(command):
-            return str(self.commands[command][0](**kwargs))
+            return self.commands[command][0](**kwargs)
         else:
             return None
 

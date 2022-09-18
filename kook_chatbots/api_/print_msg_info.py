@@ -1,6 +1,7 @@
 from khl import  Message
 
-def print_msg_info(msg:Message):
+
+async def print_msg_info(msg:Message):
     print(msg)
     print(msg.author)
     print(msg.author.id)

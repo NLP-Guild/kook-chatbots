@@ -1,7 +1,7 @@
 from khl import  Message
 
 
-async def print_msg_info(msg:Message):
+def print_msg_info(msg:Message):
     print(f'''
         msg: {msg.content}
         author: {msg.author}
@@ -12,7 +12,7 @@ async def print_msg_info(msg:Message):
         status: {msg.author.status}
         channel: {msg.ctx.channel}
         ''')
-    # await msg.author.send('nihao')
+
     roles = await msg.ctx.guild.fetch_roles()
     for role in roles:
         print(f'''

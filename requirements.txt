@@ -1,1 +1,2 @@
 khl.py==0.3.2
+git+https://github.com/leoxiang66/chatbots.git

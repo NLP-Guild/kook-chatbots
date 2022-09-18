@@ -15,6 +15,12 @@ async def world(msg: Message):
     await msg.reply('world!')
     await task1
 
+@bot.on_message()
+async def roll4(msg: Message):
+  print(msg.author_id)
+  if msg.author_id != '2759265102':
+    msg_content = msg.content
+    print(msg_content)
 
 
 # everything done, go ahead now!

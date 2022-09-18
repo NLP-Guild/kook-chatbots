@@ -23,6 +23,7 @@ The chatbot is currenly deployed in [this server](https://kook.top/TiPbQL). To c
 Please join our [official NLP Guild KOOK server](https://kook.top/i25ZuW)
 
 # 5 Citation
+If you use this software in your work, please cite it using the following metadata.
 ```
 @software{Xiang_KOOK-Chatbots,
 author = {Xiang, Tao},

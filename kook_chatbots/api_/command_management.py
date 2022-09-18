@@ -50,7 +50,7 @@ class CommandManager:
                 arg = tokens[i-1][2:]
                 kwargs[arg] = token
 
-        self.exec_command(command,**kwargs)
+        return self.exec_command(command,**kwargs)
 
 if __name__ == '__main__':
     manager = CommandManager()

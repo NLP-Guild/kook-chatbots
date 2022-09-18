@@ -13,6 +13,11 @@ Chatbots (Dialogue Systems) development on KOOK platform.
 
 
 
-
 # 2 Usage
 A full tutorial of usage can be found in this [colab notebook](https://colab.research.google.com/drive/1eY9T1hR_PxTGLIUD2MqO7XiaotO8rJC7?usp=sharing)
+
+# 3 Chat online with the chatbot
+The chatbot is currenly deployed in [this server](https://kook.top/TiPbQL). To chat with it, simply join the server (you need a KOOK account)
+
+# 4 Discussions & Feedbacks
+Please join our [official NLP Guild KOOK server](https://kook.top/i25ZuW)

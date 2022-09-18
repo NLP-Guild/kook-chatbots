@@ -10,7 +10,7 @@ bot = Bot(token=testBot_token)
 # command magager
 command_manager = CommandManager()
 command_manager.register_command('hello',lambda :'world','send a hello world sentence')
-command_manager.register_command('clearhistory',clear_chat_history,'清楚聊天机器人对话历史')
+command_manager.register_command('clearhistory',clear_chat_history,'clear dialogue history of the chatbot')
 
 # register command, send `/hello` in channel to invoke
 # @bot.command(name='hello')

@@ -10,8 +10,9 @@ bot = Bot(token=testBot_token)
 # register command, send `/hello` in channel to invoke
 @bot.command(name='hello')
 async def world(msg: Message):
+    await print_msg_info(msg)
     await msg.reply('world!')
-    print_msg_info(msg)
+
 
 
 # everything done, go ahead now!
